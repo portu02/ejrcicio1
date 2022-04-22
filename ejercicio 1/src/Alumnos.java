@@ -8,4 +8,19 @@ public class Alumnos {
 		this.apellido=b;
 		this.dni=c;
 	}
+	//getter
+	public String getnombre() {
+		return this.nombre;
+	}
+	public String getapellido() {
+		return this.apellido;
+	}
+	public String getdni() {
+		return this.dni;
+	}
+	//metodo 
+	public String toString() {
+		return "nombre: "+getnombre()+" apellido "+getapellido()+" dni "+this.dni;
+		
+	}
 }
