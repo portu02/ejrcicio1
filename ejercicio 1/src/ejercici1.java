@@ -5,8 +5,9 @@ public class ejercici1 {
 		System.out.println("Listado de alumnos 1º DAW");
 		System.out.println("Alumno 1");
 		
-		Alumno alumno1=new Alumno("ruben","portuguez","502235273F");
+		Alumnos alumno1=new Alumnos("ruben","portuguez","502235273F");
 		System.out.println(alumno1);
+		System.out.println("final");
 
 	}
 
